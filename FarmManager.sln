@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{7058247E-E9A5-4020-A9DE-EE528C4D0E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{50EA90CA-BA15-4F34-A18C-05CCDCF46C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C14BA258-BD6F-4028-98F8-39FEB23A284E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ED92ECB3-B895-4A4C-9092-5C401764E608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FB28ADBB-6EF8-45D4-A38C-DAFEDCCA9760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManager.Bootstrapper", "src\Bootstrapper\FarmManager.Bootstrapper\FarmManager.Bootstrapper.csproj", "{C1DC8658-D194-4EC4-8D3D-9F712080C464}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManager.Shared.Abstractions", "src\Shared\FarmManager.Shared.Abstractions\FarmManager.Shared.Abstractions.csproj", "{DF991DC2-584F-40F4-89F0-4DF11801ACA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManager.Shared.Infrastructure", "src\Shared\FarmManager.Shared.Infrastructure\FarmManager.Shared.Infrastructure.csproj", "{BD9E646E-69C1-4602-90AF-FB757C030FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{2A008174-BE91-44E1-ACD0-BD52263CF1CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManager.Modules.Main.Api", "src\Modules\Main\FarmManager.Modules.Main.Api\FarmManager.Modules.Main.Api.csproj", "{99834128-2F54-460C-BAA3-2F8D7B796011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManager.Modules.Main.Core", "src\Modules\Main\FarmManager.Modules.Main.Core\FarmManager.Modules.Main.Core.csproj", "{369FC360-6A72-4428-8829-8B8E058F9620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D9B26BC6-B03F-40CF-B8BA-D006C5B3023F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "React", "React", "{76CAB13D-123A-4B82-8BD3-B7A5559B8DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "farm-manager-client", "farm-manager-client", "{70CE0AAD-C385-443C-B263-B36F329F37C3}"
+	ProjectSection(SolutionItems) = preProject
+		src\Clients\Web\React\farm-manager-client\.gitignore = src\Clients\Web\React\farm-manager-client\.gitignore
+		src\Clients\Web\React\farm-manager-client\package-lock.json = src\Clients\Web\React\farm-manager-client\package-lock.json
+		src\Clients\Web\React\farm-manager-client\package.json = src\Clients\Web\React\farm-manager-client\package.json
+		src\Clients\Web\React\farm-manager-client\README.md = src\Clients\Web\React\farm-manager-client\README.md
+		src\Clients\Web\React\farm-manager-client\tsconfig.json = src\Clients\Web\React\farm-manager-client\tsconfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{4F0BD69E-5FD6-40A5-A92A-75F00F17F4AC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Clients\Web\React\farm-manager-client\public\favicon.ico = src\Clients\Web\React\farm-manager-client\public\favicon.ico
+		src\Clients\Web\React\farm-manager-client\public\index.html = src\Clients\Web\React\farm-manager-client\public\index.html
+		src\Clients\Web\React\farm-manager-client\public\manifest.json = src\Clients\Web\React\farm-manager-client\public\manifest.json
+		src\Clients\Web\React\farm-manager-client\public\robots.txt = src\Clients\Web\React\farm-manager-client\public\robots.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4759DB9-2F8E-4561-BF20-AE3B221E8A7D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Clients\Web\React\farm-manager-client\src\App.tsx = src\Clients\Web\React\farm-manager-client\src\App.tsx
+		src\Clients\Web\React\farm-manager-client\src\index.css = src\Clients\Web\React\farm-manager-client\src\index.css
+		src\Clients\Web\React\farm-manager-client\src\index.tsx = src\Clients\Web\React\farm-manager-client\src\index.tsx
+		src\Clients\Web\React\farm-manager-client\src\logo.svg = src\Clients\Web\React\farm-manager-client\src\logo.svg
+		src\Clients\Web\React\farm-manager-client\src\react-app-env.d.ts = src\Clients\Web\React\farm-manager-client\src\react-app-env.d.ts
+		src\Clients\Web\React\farm-manager-client\src\reportWebVitals.ts = src\Clients\Web\React\farm-manager-client\src\reportWebVitals.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_modules", "node_modules", "{83FB19A9-7876-4342-BC45-35EEBC0AC22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DC8658-D194-4EC4-8D3D-9F712080C464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DC8658-D194-4EC4-8D3D-9F712080C464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DC8658-D194-4EC4-8D3D-9F712080C464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DC8658-D194-4EC4-8D3D-9F712080C464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF991DC2-584F-40F4-89F0-4DF11801ACA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF991DC2-584F-40F4-89F0-4DF11801ACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF991DC2-584F-40F4-89F0-4DF11801ACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF991DC2-584F-40F4-89F0-4DF11801ACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9E646E-69C1-4602-90AF-FB757C030FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9E646E-69C1-4602-90AF-FB757C030FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9E646E-69C1-4602-90AF-FB757C030FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9E646E-69C1-4602-90AF-FB757C030FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99834128-2F54-460C-BAA3-2F8D7B796011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99834128-2F54-460C-BAA3-2F8D7B796011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99834128-2F54-460C-BAA3-2F8D7B796011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99834128-2F54-460C-BAA3-2F8D7B796011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369FC360-6A72-4428-8829-8B8E058F9620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369FC360-6A72-4428-8829-8B8E058F9620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369FC360-6A72-4428-8829-8B8E058F9620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369FC360-6A72-4428-8829-8B8E058F9620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1DC8658-D194-4EC4-8D3D-9F712080C464} = {7058247E-E9A5-4020-A9DE-EE528C4D0E50}
+		{DF991DC2-584F-40F4-89F0-4DF11801ACA3} = {ED92ECB3-B895-4A4C-9092-5C401764E608}
+		{BD9E646E-69C1-4602-90AF-FB757C030FF9} = {ED92ECB3-B895-4A4C-9092-5C401764E608}
+		{2A008174-BE91-44E1-ACD0-BD52263CF1CF} = {C14BA258-BD6F-4028-98F8-39FEB23A284E}
+		{99834128-2F54-460C-BAA3-2F8D7B796011} = {2A008174-BE91-44E1-ACD0-BD52263CF1CF}
+		{369FC360-6A72-4428-8829-8B8E058F9620} = {2A008174-BE91-44E1-ACD0-BD52263CF1CF}
+		{D9B26BC6-B03F-40CF-B8BA-D006C5B3023F} = {50EA90CA-BA15-4F34-A18C-05CCDCF46C25}
+		{76CAB13D-123A-4B82-8BD3-B7A5559B8DBB} = {D9B26BC6-B03F-40CF-B8BA-D006C5B3023F}
+		{70CE0AAD-C385-443C-B263-B36F329F37C3} = {76CAB13D-123A-4B82-8BD3-B7A5559B8DBB}
+		{4F0BD69E-5FD6-40A5-A92A-75F00F17F4AC} = {70CE0AAD-C385-443C-B263-B36F329F37C3}
+		{C4759DB9-2F8E-4561-BF20-AE3B221E8A7D} = {70CE0AAD-C385-443C-B263-B36F329F37C3}
+		{83FB19A9-7876-4342-BC45-35EEBC0AC22D} = {70CE0AAD-C385-443C-B263-B36F329F37C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C54F851-19B5-4718-96CC-35109FA9C042}
+	EndGlobalSection
+EndGlobal
