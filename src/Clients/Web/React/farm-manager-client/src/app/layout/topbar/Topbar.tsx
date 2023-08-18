@@ -1,4 +1,6 @@
-function App() {
+import './Topbar.css'
+
+function Topbar() {
   return (
     <div>
       <h1>Farm Manager</h1>
@@ -6,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default Topbar
